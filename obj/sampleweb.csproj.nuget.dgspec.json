@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahendra\\source\\repos\\sampleweb\\sampleweb.csproj": {}
+    "C:\\Users\\asus\\Desktop\\aspdotnet\\sample-aspnet\\sampleweb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahendra\\source\\repos\\sampleweb\\sampleweb.csproj": {
+    "C:\\Users\\asus\\Desktop\\aspdotnet\\sample-aspnet\\sampleweb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahendra\\source\\repos\\sampleweb\\sampleweb.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\aspdotnet\\sample-aspnet\\sampleweb.csproj",
         "projectName": "sampleweb",
-        "projectPath": "C:\\Users\\mahendra\\source\\repos\\sampleweb\\sampleweb.csproj",
-        "packagesPath": "C:\\Users\\mahendra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahendra\\source\\repos\\sampleweb\\obj\\",
+        "projectPath": "C:\\Users\\asus\\Desktop\\aspdotnet\\sample-aspnet\\sampleweb.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\aspdotnet\\sample-aspnet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mahendra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +26,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/mahendraunlimited/PartsUnlimited/_packaging/myget101/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/mahendraunlimited/PartsUnlimited101/_packaging/myrepo101/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/mahendraunlimited/TestAppPackage/_packaging/GreetFeed/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/mahendraunlimited/_packaging/MyGet1%40Release/nuget/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,10 +39,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -56,10 +61,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -68,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5\\RuntimeIdentifierGraph.json"
         }
       }
     }

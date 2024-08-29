@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "e0b235RhqCA1rSEhhr/EeTQs/pMY13q2zXO7VneUJ1zVX7uwoHQpPmSeakZldbdXsHrDsrPJ3NaBA/6jdXOCYw==",
+  "dgSpecHash": "4UMXlNYtz0Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahendra\\source\\repos\\sampleweb\\sampleweb.csproj",
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\aspdotnet\\sample-aspnet\\sampleweb.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mahendra\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
   "logs": []
 }
